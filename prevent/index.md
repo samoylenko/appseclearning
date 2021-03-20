@@ -63,6 +63,7 @@ Want a short list of my best robot-friends? Here it is:
 * [Snyk](https://snyk.io) -
   ([Software Composition Analysis](https://snyk.io/blog/what-is-software-composition-analysis-sca-and-does-my-company-need-it/))
 * [OWASP ZAP](https://www.zaproxy.org) -
+  [Dynamic Application Security Testing](https://en.wikipedia.org/wiki/Dynamic_application_security_testing)
 
 ### Human friend
 
@@ -70,3 +71,24 @@ But nothing can replace teaming up with another human being. One can't really
 rely on robots and imaginary friends if they want to step out of the sandbox.
 And that's where we face all these challenges, like the need to get along with
 other people who are convinced they are better than you are.
+
+Yet, the advice still stands: get someone to look at the changes you make to the
+code. After we finished a dialogue with our imaginary friend and covered all the
+unexpected code behavior with them, and after our robot friend has finished
+looking at our code, time to involve a human friend, and yeah, that's hard.
+
+The world has never seen a software engineer that doesn't think "
+[what a mess](https://www.osnews.com/story/19266/wtfsm/)" looking at another
+engineer's code, and I see three major conflicts that often prevent programmers
+from involving other humans in their daily code writing:
+
+* There is always a war on syntax, like spaces vs tabs, number of spaces in a
+  tab, function curve braces position, newline, etc.
+* There's always "your code doesn't work!" - "but it works at my computer!"
+* ...
+
+And of course there's always the Dunning-Kruger effect, but its beyond the goals
+of this article.
+
+Imaginary and robot friend help very well make it easier for human friend to
+participate
